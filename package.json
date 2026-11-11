@@ -1,0 +1,11 @@
+{
+  "name": "samstudy-mobile",
+  "version": "1.0.0",
+  "description": "SamStudy 허브의 모바일 웹앱(PWA)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "serve": "npx --yes http-server . -p 8080 -c-1"
+  }
+}
